@@ -1,0 +1,1135 @@
+[2020-12-05 18:19:32,935] {scheduler_job.py:155} INFO - Started process (PID=162) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:32,939] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:32,940] {logging_mixin.py:112} INFO - [2020-12-05 18:19:32,940] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:32,948] {logging_mixin.py:112} INFO - [2020-12-05 18:19:32,945] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:32,949] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:32,968] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.033 seconds
+[2020-12-05 18:19:33,873] {scheduler_job.py:155} INFO - Started process (PID=167) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:33,877] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:33,879] {logging_mixin.py:112} INFO - [2020-12-05 18:19:33,878] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:33,885] {logging_mixin.py:112} INFO - [2020-12-05 18:19:33,883] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:33,886] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:33,905] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.033 seconds
+[2020-12-05 18:19:33,946] {scheduler_job.py:155} INFO - Started process (PID=172) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:33,951] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:33,952] {logging_mixin.py:112} INFO - [2020-12-05 18:19:33,952] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:33,959] {logging_mixin.py:112} INFO - [2020-12-05 18:19:33,957] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:33,960] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:33,978] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.032 seconds
+[2020-12-05 18:19:34,886] {scheduler_job.py:155} INFO - Started process (PID=177) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:34,891] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:34,893] {logging_mixin.py:112} INFO - [2020-12-05 18:19:34,893] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:34,903] {logging_mixin.py:112} INFO - [2020-12-05 18:19:34,901] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:34,904] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:34,930] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.044 seconds
+[2020-12-05 18:19:34,972] {scheduler_job.py:155} INFO - Started process (PID=182) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:34,977] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:34,979] {logging_mixin.py:112} INFO - [2020-12-05 18:19:34,978] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:34,991] {logging_mixin.py:112} INFO - [2020-12-05 18:19:34,987] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:34,992] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:35,022] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.051 seconds
+[2020-12-05 18:19:35,887] {scheduler_job.py:155} INFO - Started process (PID=187) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:35,890] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:35,891] {logging_mixin.py:112} INFO - [2020-12-05 18:19:35,891] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:35,897] {logging_mixin.py:112} INFO - [2020-12-05 18:19:35,896] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:35,898] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:35,918] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.031 seconds
+[2020-12-05 18:19:35,971] {scheduler_job.py:155} INFO - Started process (PID=192) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:35,975] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:35,976] {logging_mixin.py:112} INFO - [2020-12-05 18:19:35,976] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:35,982] {logging_mixin.py:112} INFO - [2020-12-05 18:19:35,981] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:35,983] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:36,001] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.030 seconds
+[2020-12-05 18:19:36,895] {scheduler_job.py:155} INFO - Started process (PID=197) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:36,899] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:36,901] {logging_mixin.py:112} INFO - [2020-12-05 18:19:36,900] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:36,907] {logging_mixin.py:112} INFO - [2020-12-05 18:19:36,905] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:36,908] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:36,928] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.033 seconds
+[2020-12-05 18:19:36,975] {scheduler_job.py:155} INFO - Started process (PID=202) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:36,979] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:36,980] {logging_mixin.py:112} INFO - [2020-12-05 18:19:36,980] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:36,986] {logging_mixin.py:112} INFO - [2020-12-05 18:19:36,984] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:36,986] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:37,004] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.029 seconds
+[2020-12-05 18:19:37,906] {scheduler_job.py:155} INFO - Started process (PID=207) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:37,910] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:37,911] {logging_mixin.py:112} INFO - [2020-12-05 18:19:37,911] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:37,918] {logging_mixin.py:112} INFO - [2020-12-05 18:19:37,916] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:37,919] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:37,937] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.031 seconds
+[2020-12-05 18:19:37,980] {scheduler_job.py:155} INFO - Started process (PID=212) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:37,984] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:37,985] {logging_mixin.py:112} INFO - [2020-12-05 18:19:37,984] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:37,990] {logging_mixin.py:112} INFO - [2020-12-05 18:19:37,989] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:37,991] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:38,009] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.030 seconds
+[2020-12-05 18:19:38,915] {scheduler_job.py:155} INFO - Started process (PID=217) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:38,919] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:38,922] {logging_mixin.py:112} INFO - [2020-12-05 18:19:38,922] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:38,928] {logging_mixin.py:112} INFO - [2020-12-05 18:19:38,926] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:38,929] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:38,947] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.032 seconds
+[2020-12-05 18:19:38,985] {scheduler_job.py:155} INFO - Started process (PID=222) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:38,989] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:38,990] {logging_mixin.py:112} INFO - [2020-12-05 18:19:38,990] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:38,996] {logging_mixin.py:112} INFO - [2020-12-05 18:19:38,995] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:38,997] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:39,015] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.029 seconds
+[2020-12-05 18:19:39,926] {scheduler_job.py:155} INFO - Started process (PID=227) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:39,930] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:39,931] {logging_mixin.py:112} INFO - [2020-12-05 18:19:39,931] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:39,937] {logging_mixin.py:112} INFO - [2020-12-05 18:19:39,935] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:39,937] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:39,956] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.030 seconds
+[2020-12-05 18:19:39,991] {scheduler_job.py:155} INFO - Started process (PID=232) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:39,995] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:39,996] {logging_mixin.py:112} INFO - [2020-12-05 18:19:39,996] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:40,002] {logging_mixin.py:112} INFO - [2020-12-05 18:19:40,000] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:40,002] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:40,021] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.030 seconds
+[2020-12-05 18:19:40,935] {scheduler_job.py:155} INFO - Started process (PID=237) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:40,939] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:40,940] {logging_mixin.py:112} INFO - [2020-12-05 18:19:40,940] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:40,946] {logging_mixin.py:112} INFO - [2020-12-05 18:19:40,945] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:40,947] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:40,965] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.030 seconds
+[2020-12-05 18:19:40,997] {scheduler_job.py:155} INFO - Started process (PID=242) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:41,001] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:41,002] {logging_mixin.py:112} INFO - [2020-12-05 18:19:41,002] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:41,008] {logging_mixin.py:112} INFO - [2020-12-05 18:19:41,006] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:41,009] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:41,027] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.030 seconds
+[2020-12-05 18:19:41,943] {scheduler_job.py:155} INFO - Started process (PID=247) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:41,948] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:41,949] {logging_mixin.py:112} INFO - [2020-12-05 18:19:41,949] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:41,955] {logging_mixin.py:112} INFO - [2020-12-05 18:19:41,953] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:41,955] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:41,974] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.031 seconds
+[2020-12-05 18:19:42,002] {scheduler_job.py:155} INFO - Started process (PID=252) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:42,006] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:42,007] {logging_mixin.py:112} INFO - [2020-12-05 18:19:42,007] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:42,013] {logging_mixin.py:112} INFO - [2020-12-05 18:19:42,012] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:42,014] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:42,032] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.030 seconds
+[2020-12-05 18:19:42,961] {scheduler_job.py:155} INFO - Started process (PID=257) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:42,966] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:42,967] {logging_mixin.py:112} INFO - [2020-12-05 18:19:42,967] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:42,973] {logging_mixin.py:112} INFO - [2020-12-05 18:19:42,971] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:42,973] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:42,991] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.030 seconds
+[2020-12-05 18:19:43,016] {scheduler_job.py:155} INFO - Started process (PID=262) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:43,020] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:43,022] {logging_mixin.py:112} INFO - [2020-12-05 18:19:43,021] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:43,028] {logging_mixin.py:112} INFO - [2020-12-05 18:19:43,026] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:43,029] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:43,047] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.031 seconds
+[2020-12-05 18:19:44,964] {scheduler_job.py:155} INFO - Started process (PID=267) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:44,968] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:44,969] {logging_mixin.py:112} INFO - [2020-12-05 18:19:44,969] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:44,976] {logging_mixin.py:112} INFO - [2020-12-05 18:19:44,974] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:44,977] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:44,996] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.032 seconds
+[2020-12-05 18:19:45,972] {scheduler_job.py:155} INFO - Started process (PID=272) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:45,976] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:45,977] {logging_mixin.py:112} INFO - [2020-12-05 18:19:45,977] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:45,983] {logging_mixin.py:112} INFO - [2020-12-05 18:19:45,981] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:45,984] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:46,002] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.031 seconds
+[2020-12-05 18:19:46,958] {scheduler_job.py:155} INFO - Started process (PID=277) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:46,963] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:46,964] {logging_mixin.py:112} INFO - [2020-12-05 18:19:46,964] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:46,971] {logging_mixin.py:112} INFO - [2020-12-05 18:19:46,969] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:46,971] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:46,990] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.032 seconds
+[2020-12-05 18:19:47,963] {scheduler_job.py:155} INFO - Started process (PID=282) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:47,967] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:47,968] {logging_mixin.py:112} INFO - [2020-12-05 18:19:47,968] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:47,974] {logging_mixin.py:112} INFO - [2020-12-05 18:19:47,973] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:47,975] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:47,996] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.033 seconds
+[2020-12-05 18:19:48,969] {scheduler_job.py:155} INFO - Started process (PID=287) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:48,973] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:48,974] {logging_mixin.py:112} INFO - [2020-12-05 18:19:48,974] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:48,980] {logging_mixin.py:112} INFO - [2020-12-05 18:19:48,979] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:48,981] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:48,999] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.030 seconds
+[2020-12-05 18:19:49,973] {scheduler_job.py:155} INFO - Started process (PID=292) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:49,978] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:49,979] {logging_mixin.py:112} INFO - [2020-12-05 18:19:49,979] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:49,986] {logging_mixin.py:112} INFO - [2020-12-05 18:19:49,984] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:49,987] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:50,007] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.034 seconds
+[2020-12-05 18:19:50,980] {scheduler_job.py:155} INFO - Started process (PID=297) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:50,985] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:50,986] {logging_mixin.py:112} INFO - [2020-12-05 18:19:50,986] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:50,993] {logging_mixin.py:112} INFO - [2020-12-05 18:19:50,991] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:50,994] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:51,012] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.032 seconds
+[2020-12-05 18:19:51,989] {scheduler_job.py:155} INFO - Started process (PID=302) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:51,994] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:51,995] {logging_mixin.py:112} INFO - [2020-12-05 18:19:51,995] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:52,002] {logging_mixin.py:112} INFO - [2020-12-05 18:19:52,000] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:52,002] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:52,021] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.032 seconds
+[2020-12-05 18:19:53,003] {scheduler_job.py:155} INFO - Started process (PID=307) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:53,008] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:53,009] {logging_mixin.py:112} INFO - [2020-12-05 18:19:53,009] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:53,017] {logging_mixin.py:112} INFO - [2020-12-05 18:19:53,015] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:53,018] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:53,037] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.034 seconds
+[2020-12-05 18:19:54,009] {scheduler_job.py:155} INFO - Started process (PID=312) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:54,014] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:54,015] {logging_mixin.py:112} INFO - [2020-12-05 18:19:54,015] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:54,022] {logging_mixin.py:112} INFO - [2020-12-05 18:19:54,020] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:54,022] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:54,042] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.033 seconds
+[2020-12-05 18:19:55,014] {scheduler_job.py:155} INFO - Started process (PID=317) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:55,018] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:55,019] {logging_mixin.py:112} INFO - [2020-12-05 18:19:55,019] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:55,026] {logging_mixin.py:112} INFO - [2020-12-05 18:19:55,024] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:55,026] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:55,045] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.031 seconds
+[2020-12-05 18:19:56,022] {scheduler_job.py:155} INFO - Started process (PID=322) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:56,026] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:56,028] {logging_mixin.py:112} INFO - [2020-12-05 18:19:56,028] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:56,034] {logging_mixin.py:112} INFO - [2020-12-05 18:19:56,032] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:56,035] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:56,055] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.033 seconds
+[2020-12-05 18:19:57,029] {scheduler_job.py:155} INFO - Started process (PID=327) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:57,034] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:57,035] {logging_mixin.py:112} INFO - [2020-12-05 18:19:57,035] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:57,042] {logging_mixin.py:112} INFO - [2020-12-05 18:19:57,040] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:57,042] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:57,060] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.031 seconds
+[2020-12-05 18:19:58,037] {scheduler_job.py:155} INFO - Started process (PID=332) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:58,041] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:58,042] {logging_mixin.py:112} INFO - [2020-12-05 18:19:58,042] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:58,048] {logging_mixin.py:112} INFO - [2020-12-05 18:19:58,046] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:58,049] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:58,067] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.030 seconds
+[2020-12-05 18:19:59,043] {scheduler_job.py:155} INFO - Started process (PID=337) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:59,047] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:19:59,048] {logging_mixin.py:112} INFO - [2020-12-05 18:19:59,048] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:59,054] {logging_mixin.py:112} INFO - [2020-12-05 18:19:59,053] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:19:59,055] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:19:59,073] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.030 seconds
+[2020-12-05 18:20:00,050] {scheduler_job.py:155} INFO - Started process (PID=342) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:00,054] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:00,055] {logging_mixin.py:112} INFO - [2020-12-05 18:20:00,055] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:00,062] {logging_mixin.py:112} INFO - [2020-12-05 18:20:00,060] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:20:00,062] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:00,081] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.031 seconds
+[2020-12-05 18:20:01,058] {scheduler_job.py:155} INFO - Started process (PID=347) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:01,062] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:01,063] {logging_mixin.py:112} INFO - [2020-12-05 18:20:01,063] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:01,068] {logging_mixin.py:112} INFO - [2020-12-05 18:20:01,067] {dagbag.py:259} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 4, in <module>
+    with DAG('example_dag', start_date=datetime(2016, 1, 1)) as dag:
+NameError: name 'datetime' is not defined
+[2020-12-05 18:20:01,069] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:01,087] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.029 seconds
+[2020-12-05 18:20:02,063] {scheduler_job.py:155} INFO - Started process (PID=352) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:02,067] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:02,068] {logging_mixin.py:112} INFO - [2020-12-05 18:20:02,068] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:02,081] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:02,099] {logging_mixin.py:112} INFO - [2020-12-05 18:20:02,099] {dag.py:1520} INFO - Creating ORM DAG for example_dag
+[2020-12-05 18:20:02,109] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.046 seconds
+[2020-12-05 18:20:03,077] {scheduler_job.py:155} INFO - Started process (PID=357) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:03,080] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:03,081] {logging_mixin.py:112} INFO - [2020-12-05 18:20:03,081] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:03,089] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:03,116] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.039 seconds
+[2020-12-05 18:20:04,086] {scheduler_job.py:155} INFO - Started process (PID=362) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:04,089] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:04,090] {logging_mixin.py:112} INFO - [2020-12-05 18:20:04,090] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:04,098] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:04,131] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.046 seconds
+[2020-12-05 18:20:05,097] {scheduler_job.py:155} INFO - Started process (PID=367) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:05,103] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:05,104] {logging_mixin.py:112} INFO - [2020-12-05 18:20:05,104] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:05,115] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:05,154] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.057 seconds
+[2020-12-05 18:20:06,098] {scheduler_job.py:155} INFO - Started process (PID=372) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:06,102] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:06,103] {logging_mixin.py:112} INFO - [2020-12-05 18:20:06,102] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:06,109] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:06,138] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.040 seconds
+[2020-12-05 18:20:07,105] {scheduler_job.py:155} INFO - Started process (PID=377) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:07,109] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:07,110] {logging_mixin.py:112} INFO - [2020-12-05 18:20:07,110] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:07,117] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:07,145] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.040 seconds
+[2020-12-05 18:20:08,113] {scheduler_job.py:155} INFO - Started process (PID=382) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:08,117] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:08,118] {logging_mixin.py:112} INFO - [2020-12-05 18:20:08,118] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:08,126] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:08,156] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.043 seconds
+[2020-12-05 18:20:09,120] {scheduler_job.py:155} INFO - Started process (PID=387) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:09,124] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:09,125] {logging_mixin.py:112} INFO - [2020-12-05 18:20:09,125] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:09,132] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:09,161] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:20:10,127] {scheduler_job.py:155} INFO - Started process (PID=392) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:10,130] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:10,131] {logging_mixin.py:112} INFO - [2020-12-05 18:20:10,131] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:10,138] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:10,167] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:20:11,132] {scheduler_job.py:155} INFO - Started process (PID=397) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:11,136] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:11,137] {logging_mixin.py:112} INFO - [2020-12-05 18:20:11,137] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:11,144] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:11,174] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.042 seconds
+[2020-12-05 18:20:12,138] {scheduler_job.py:155} INFO - Started process (PID=402) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:12,142] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:12,143] {logging_mixin.py:112} INFO - [2020-12-05 18:20:12,143] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:12,150] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:12,180] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.042 seconds
+[2020-12-05 18:20:13,153] {scheduler_job.py:155} INFO - Started process (PID=407) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:13,157] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:13,158] {logging_mixin.py:112} INFO - [2020-12-05 18:20:13,158] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:13,165] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:13,193] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.040 seconds
+[2020-12-05 18:20:14,161] {scheduler_job.py:155} INFO - Started process (PID=412) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:14,164] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:14,165] {logging_mixin.py:112} INFO - [2020-12-05 18:20:14,165] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:14,172] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:14,199] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.039 seconds
+[2020-12-05 18:20:15,168] {scheduler_job.py:155} INFO - Started process (PID=417) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:15,172] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:15,173] {logging_mixin.py:112} INFO - [2020-12-05 18:20:15,173] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:15,180] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:15,209] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:20:16,176] {scheduler_job.py:155} INFO - Started process (PID=422) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:16,180] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:16,180] {logging_mixin.py:112} INFO - [2020-12-05 18:20:16,180] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:16,187] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:16,215] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.039 seconds
+[2020-12-05 18:20:17,161] {scheduler_job.py:155} INFO - Started process (PID=427) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:17,165] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:17,166] {logging_mixin.py:112} INFO - [2020-12-05 18:20:17,166] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:17,173] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:17,203] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.042 seconds
+[2020-12-05 18:20:18,171] {scheduler_job.py:155} INFO - Started process (PID=432) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:18,175] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:18,176] {logging_mixin.py:112} INFO - [2020-12-05 18:20:18,176] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:18,184] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:18,213] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.043 seconds
+[2020-12-05 18:20:19,173] {scheduler_job.py:155} INFO - Started process (PID=437) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:19,176] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:19,178] {logging_mixin.py:112} INFO - [2020-12-05 18:20:19,178] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:19,185] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:19,213] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.040 seconds
+[2020-12-05 18:20:20,182] {scheduler_job.py:155} INFO - Started process (PID=442) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:20,186] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:20,187] {logging_mixin.py:112} INFO - [2020-12-05 18:20:20,187] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:20,194] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:20,223] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:20:21,189] {scheduler_job.py:155} INFO - Started process (PID=447) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:21,193] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:21,194] {logging_mixin.py:112} INFO - [2020-12-05 18:20:21,194] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:21,201] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:21,230] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:20:22,196] {scheduler_job.py:155} INFO - Started process (PID=452) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:22,201] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:22,202] {logging_mixin.py:112} INFO - [2020-12-05 18:20:22,202] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:22,209] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:22,238] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.042 seconds
+[2020-12-05 18:20:23,211] {scheduler_job.py:155} INFO - Started process (PID=457) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:23,214] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:23,215] {logging_mixin.py:112} INFO - [2020-12-05 18:20:23,215] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:23,222] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:23,251] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:20:24,218] {scheduler_job.py:155} INFO - Started process (PID=462) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:24,222] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:24,223] {logging_mixin.py:112} INFO - [2020-12-05 18:20:24,223] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:24,230] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:24,259] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.040 seconds
+[2020-12-05 18:20:25,225] {scheduler_job.py:155} INFO - Started process (PID=467) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:25,229] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:25,230] {logging_mixin.py:112} INFO - [2020-12-05 18:20:25,230] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:25,237] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:25,265] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.040 seconds
+[2020-12-05 18:20:26,231] {scheduler_job.py:155} INFO - Started process (PID=472) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:26,235] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:26,236] {logging_mixin.py:112} INFO - [2020-12-05 18:20:26,236] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:26,243] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:26,271] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.040 seconds
+[2020-12-05 18:20:27,239] {scheduler_job.py:155} INFO - Started process (PID=477) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:27,243] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:27,244] {logging_mixin.py:112} INFO - [2020-12-05 18:20:27,244] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:27,251] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:27,279] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.039 seconds
+[2020-12-05 18:20:28,247] {scheduler_job.py:155} INFO - Started process (PID=482) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:28,251] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:28,252] {logging_mixin.py:112} INFO - [2020-12-05 18:20:28,252] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:28,259] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:28,287] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:20:29,252] {scheduler_job.py:155} INFO - Started process (PID=487) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:29,256] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:29,257] {logging_mixin.py:112} INFO - [2020-12-05 18:20:29,257] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:29,263] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:29,293] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:20:30,260] {scheduler_job.py:155} INFO - Started process (PID=492) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:30,264] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:30,266] {logging_mixin.py:112} INFO - [2020-12-05 18:20:30,266] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:30,273] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:30,305] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.045 seconds
+[2020-12-05 18:20:31,265] {scheduler_job.py:155} INFO - Started process (PID=497) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:31,269] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:31,270] {logging_mixin.py:112} INFO - [2020-12-05 18:20:31,270] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:31,278] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:31,308] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.043 seconds
+[2020-12-05 18:20:32,273] {scheduler_job.py:155} INFO - Started process (PID=502) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:32,277] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:32,278] {logging_mixin.py:112} INFO - [2020-12-05 18:20:32,278] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:32,285] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:32,314] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:20:33,285] {scheduler_job.py:155} INFO - Started process (PID=507) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:33,289] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:33,290] {logging_mixin.py:112} INFO - [2020-12-05 18:20:33,290] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:33,297] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:33,327] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.042 seconds
+[2020-12-05 18:20:34,295] {scheduler_job.py:155} INFO - Started process (PID=512) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:34,299] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:34,300] {logging_mixin.py:112} INFO - [2020-12-05 18:20:34,300] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:34,306] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:34,336] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:20:35,301] {scheduler_job.py:155} INFO - Started process (PID=517) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:35,306] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:35,307] {logging_mixin.py:112} INFO - [2020-12-05 18:20:35,307] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:35,315] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:35,345] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.044 seconds
+[2020-12-05 18:20:36,306] {scheduler_job.py:155} INFO - Started process (PID=522) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:36,311] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:36,312] {logging_mixin.py:112} INFO - [2020-12-05 18:20:36,312] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:36,319] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:36,352] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.046 seconds
+[2020-12-05 18:20:37,313] {scheduler_job.py:155} INFO - Started process (PID=527) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:37,318] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:37,319] {logging_mixin.py:112} INFO - [2020-12-05 18:20:37,319] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:37,326] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:37,355] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.042 seconds
+[2020-12-05 18:20:38,322] {scheduler_job.py:155} INFO - Started process (PID=532) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:38,326] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:38,327] {logging_mixin.py:112} INFO - [2020-12-05 18:20:38,327] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:38,334] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:38,363] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:20:39,337] {scheduler_job.py:155} INFO - Started process (PID=537) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:39,341] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:39,342] {logging_mixin.py:112} INFO - [2020-12-05 18:20:39,342] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:39,360] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:39,388] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.051 seconds
+[2020-12-05 18:20:40,344] {scheduler_job.py:155} INFO - Started process (PID=542) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:40,347] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:40,349] {logging_mixin.py:112} INFO - [2020-12-05 18:20:40,348] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:40,356] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:40,384] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:20:41,348] {scheduler_job.py:155} INFO - Started process (PID=547) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:41,352] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:41,354] {logging_mixin.py:112} INFO - [2020-12-05 18:20:41,354] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:41,361] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:41,389] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:20:42,358] {scheduler_job.py:155} INFO - Started process (PID=552) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:42,362] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:42,363] {logging_mixin.py:112} INFO - [2020-12-05 18:20:42,363] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:42,370] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:42,397] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.039 seconds
+[2020-12-05 18:20:43,372] {scheduler_job.py:155} INFO - Started process (PID=557) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:43,375] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:43,376] {logging_mixin.py:112} INFO - [2020-12-05 18:20:43,376] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:43,383] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:43,411] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.039 seconds
+[2020-12-05 18:20:44,381] {scheduler_job.py:155} INFO - Started process (PID=562) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:44,385] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:44,386] {logging_mixin.py:112} INFO - [2020-12-05 18:20:44,386] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:44,393] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:44,420] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.039 seconds
+[2020-12-05 18:20:45,390] {scheduler_job.py:155} INFO - Started process (PID=567) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:45,394] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:45,395] {logging_mixin.py:112} INFO - [2020-12-05 18:20:45,395] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:45,401] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:45,432] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.042 seconds
+[2020-12-05 18:20:46,375] {scheduler_job.py:155} INFO - Started process (PID=572) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:46,379] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:46,381] {logging_mixin.py:112} INFO - [2020-12-05 18:20:46,381] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:46,388] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:46,418] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.043 seconds
+[2020-12-05 18:20:47,406] {scheduler_job.py:155} INFO - Started process (PID=577) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:47,410] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:47,411] {logging_mixin.py:112} INFO - [2020-12-05 18:20:47,411] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:47,418] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:47,447] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:20:48,413] {scheduler_job.py:155} INFO - Started process (PID=582) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:48,417] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:48,418] {logging_mixin.py:112} INFO - [2020-12-05 18:20:48,418] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:48,425] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:48,454] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.040 seconds
+[2020-12-05 18:20:49,420] {scheduler_job.py:155} INFO - Started process (PID=587) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:49,424] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:49,425] {logging_mixin.py:112} INFO - [2020-12-05 18:20:49,425] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:49,432] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:49,460] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.040 seconds
+[2020-12-05 18:20:50,430] {scheduler_job.py:155} INFO - Started process (PID=592) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:50,433] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:50,434] {logging_mixin.py:112} INFO - [2020-12-05 18:20:50,434] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:50,441] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:50,472] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.042 seconds
+[2020-12-05 18:20:51,438] {scheduler_job.py:155} INFO - Started process (PID=597) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:51,442] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:51,443] {logging_mixin.py:112} INFO - [2020-12-05 18:20:51,442] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:51,449] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:51,477] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.039 seconds
+[2020-12-05 18:20:52,448] {scheduler_job.py:155} INFO - Started process (PID=602) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:52,452] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:52,453] {logging_mixin.py:112} INFO - [2020-12-05 18:20:52,453] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:52,459] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:52,487] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.039 seconds
+[2020-12-05 18:20:53,466] {scheduler_job.py:155} INFO - Started process (PID=607) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:53,470] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:53,471] {logging_mixin.py:112} INFO - [2020-12-05 18:20:53,471] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:53,478] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:53,506] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.040 seconds
+[2020-12-05 18:20:54,474] {scheduler_job.py:155} INFO - Started process (PID=612) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:54,480] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:54,482] {logging_mixin.py:112} INFO - [2020-12-05 18:20:54,482] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:54,493] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:54,525] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.050 seconds
+[2020-12-05 18:20:55,482] {scheduler_job.py:155} INFO - Started process (PID=617) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:55,485] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:55,486] {logging_mixin.py:112} INFO - [2020-12-05 18:20:55,486] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:55,493] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:55,524] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.043 seconds
+[2020-12-05 18:20:56,491] {scheduler_job.py:155} INFO - Started process (PID=622) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:56,495] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:56,496] {logging_mixin.py:112} INFO - [2020-12-05 18:20:56,496] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:56,503] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:56,533] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.042 seconds
+[2020-12-05 18:20:57,501] {scheduler_job.py:155} INFO - Started process (PID=627) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:57,505] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:57,506] {logging_mixin.py:112} INFO - [2020-12-05 18:20:57,506] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:57,513] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:57,542] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.042 seconds
+[2020-12-05 18:20:58,509] {scheduler_job.py:155} INFO - Started process (PID=632) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:58,513] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:58,514] {logging_mixin.py:112} INFO - [2020-12-05 18:20:58,514] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:58,521] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:58,552] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.043 seconds
+[2020-12-05 18:20:59,520] {scheduler_job.py:155} INFO - Started process (PID=637) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:59,523] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:20:59,524] {logging_mixin.py:112} INFO - [2020-12-05 18:20:59,524] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:59,531] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:20:59,561] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:21:00,525] {scheduler_job.py:155} INFO - Started process (PID=642) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:00,529] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:00,530] {logging_mixin.py:112} INFO - [2020-12-05 18:21:00,530] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:00,537] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:00,568] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.043 seconds
+[2020-12-05 18:21:01,531] {scheduler_job.py:155} INFO - Started process (PID=647) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:01,535] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:01,536] {logging_mixin.py:112} INFO - [2020-12-05 18:21:01,536] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:01,543] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:01,572] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:21:02,540] {scheduler_job.py:155} INFO - Started process (PID=652) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:02,544] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:02,545] {logging_mixin.py:112} INFO - [2020-12-05 18:21:02,545] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:02,552] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:02,582] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.042 seconds
+[2020-12-05 18:21:03,555] {scheduler_job.py:155} INFO - Started process (PID=657) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:03,558] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:03,559] {logging_mixin.py:112} INFO - [2020-12-05 18:21:03,559] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:03,565] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:03,593] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.038 seconds
+[2020-12-05 18:21:04,570] {scheduler_job.py:155} INFO - Started process (PID=662) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:04,574] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:04,575] {logging_mixin.py:112} INFO - [2020-12-05 18:21:04,575] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:04,582] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:04,610] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.040 seconds
+[2020-12-05 18:21:05,572] {scheduler_job.py:155} INFO - Started process (PID=667) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:05,577] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:05,578] {logging_mixin.py:112} INFO - [2020-12-05 18:21:05,578] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:05,587] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:05,621] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.048 seconds
+[2020-12-05 18:21:06,581] {scheduler_job.py:155} INFO - Started process (PID=672) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:06,585] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:06,586] {logging_mixin.py:112} INFO - [2020-12-05 18:21:06,586] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:06,593] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:06,622] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:21:07,589] {scheduler_job.py:155} INFO - Started process (PID=677) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:07,593] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:07,594] {logging_mixin.py:112} INFO - [2020-12-05 18:21:07,594] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:07,600] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:07,628] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.039 seconds
+[2020-12-05 18:21:08,599] {scheduler_job.py:155} INFO - Started process (PID=682) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:08,603] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:08,604] {logging_mixin.py:112} INFO - [2020-12-05 18:21:08,604] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:08,610] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:08,638] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.039 seconds
+[2020-12-05 18:21:09,607] {scheduler_job.py:155} INFO - Started process (PID=687) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:09,611] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:09,612] {logging_mixin.py:112} INFO - [2020-12-05 18:21:09,612] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:09,618] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:09,646] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.039 seconds
+[2020-12-05 18:21:10,617] {scheduler_job.py:155} INFO - Started process (PID=692) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:10,621] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:10,622] {logging_mixin.py:112} INFO - [2020-12-05 18:21:10,621] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:10,628] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:10,656] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.039 seconds
+[2020-12-05 18:21:11,625] {scheduler_job.py:155} INFO - Started process (PID=697) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:11,629] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:11,630] {logging_mixin.py:112} INFO - [2020-12-05 18:21:11,630] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:11,636] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:11,665] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.040 seconds
+[2020-12-05 18:21:12,628] {scheduler_job.py:155} INFO - Started process (PID=702) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:12,632] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:12,633] {logging_mixin.py:112} INFO - [2020-12-05 18:21:12,633] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:12,639] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:12,667] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.039 seconds
+[2020-12-05 18:21:13,647] {scheduler_job.py:155} INFO - Started process (PID=707) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:13,651] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:13,652] {logging_mixin.py:112} INFO - [2020-12-05 18:21:13,651] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:13,658] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:13,685] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.038 seconds
+[2020-12-05 18:21:14,657] {scheduler_job.py:155} INFO - Started process (PID=712) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:14,661] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:14,663] {logging_mixin.py:112} INFO - [2020-12-05 18:21:14,662] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:14,670] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:14,699] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.042 seconds
+[2020-12-05 18:21:15,667] {scheduler_job.py:155} INFO - Started process (PID=717) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:15,670] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:15,671] {logging_mixin.py:112} INFO - [2020-12-05 18:21:15,671] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:15,678] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:15,707] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.040 seconds
+[2020-12-05 18:21:16,653] {scheduler_job.py:155} INFO - Started process (PID=722) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:16,657] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:16,658] {logging_mixin.py:112} INFO - [2020-12-05 18:21:16,658] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:16,666] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:16,695] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:21:17,663] {scheduler_job.py:155} INFO - Started process (PID=727) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:17,667] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:17,668] {logging_mixin.py:112} INFO - [2020-12-05 18:21:17,668] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:17,676] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:17,705] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.042 seconds
+[2020-12-05 18:21:18,675] {scheduler_job.py:155} INFO - Started process (PID=732) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:18,679] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:18,680] {logging_mixin.py:112} INFO - [2020-12-05 18:21:18,680] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:18,688] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:18,720] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.045 seconds
+[2020-12-05 18:21:19,681] {scheduler_job.py:155} INFO - Started process (PID=737) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:19,686] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:19,687] {logging_mixin.py:112} INFO - [2020-12-05 18:21:19,687] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:19,695] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:19,729] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.048 seconds
+[2020-12-05 18:21:20,685] {scheduler_job.py:155} INFO - Started process (PID=742) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:20,693] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:20,696] {logging_mixin.py:112} INFO - [2020-12-05 18:21:20,695] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:20,706] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:20,740] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.055 seconds
+[2020-12-05 18:21:21,697] {scheduler_job.py:155} INFO - Started process (PID=747) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:21,702] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:21,703] {logging_mixin.py:112} INFO - [2020-12-05 18:21:21,703] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:21,712] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:21,740] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.043 seconds
+[2020-12-05 18:21:22,704] {scheduler_job.py:155} INFO - Started process (PID=752) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:22,708] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:22,710] {logging_mixin.py:112} INFO - [2020-12-05 18:21:22,709] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:22,717] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:22,745] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.042 seconds
+[2020-12-05 18:21:23,718] {scheduler_job.py:155} INFO - Started process (PID=757) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:23,722] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:23,723] {logging_mixin.py:112} INFO - [2020-12-05 18:21:23,723] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:23,730] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:23,758] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.041 seconds
+[2020-12-05 18:21:24,730] {scheduler_job.py:155} INFO - Started process (PID=762) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:24,735] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:24,736] {logging_mixin.py:112} INFO - [2020-12-05 18:21:24,736] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:24,744] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:24,774] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.043 seconds
+[2020-12-05 18:21:25,739] {scheduler_job.py:155} INFO - Started process (PID=767) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:25,743] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:25,745] {logging_mixin.py:112} INFO - [2020-12-05 18:21:25,744] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:25,752] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:25,779] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.040 seconds
+[2020-12-05 18:21:26,746] {scheduler_job.py:155} INFO - Started process (PID=772) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:26,754] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:26,755] {logging_mixin.py:112} INFO - [2020-12-05 18:21:26,755] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:26,762] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:26,791] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.046 seconds
+[2020-12-05 18:21:27,753] {scheduler_job.py:155} INFO - Started process (PID=777) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:27,757] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:27,759] {logging_mixin.py:112} INFO - [2020-12-05 18:21:27,758] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:27,766] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:27,796] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.042 seconds
+[2020-12-05 18:21:28,759] {scheduler_job.py:155} INFO - Started process (PID=782) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:28,763] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:28,764] {logging_mixin.py:112} INFO - [2020-12-05 18:21:28,764] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:28,772] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:28,802] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.043 seconds
+[2020-12-05 18:21:29,768] {scheduler_job.py:155} INFO - Started process (PID=787) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:29,772] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:29,773] {logging_mixin.py:112} INFO - [2020-12-05 18:21:29,773] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:29,780] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:29,812] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.044 seconds
+[2020-12-05 18:21:30,775] {scheduler_job.py:155} INFO - Started process (PID=792) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:30,778] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:30,779] {logging_mixin.py:112} INFO - [2020-12-05 18:21:30,779] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:30,786] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:30,816] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.042 seconds
+[2020-12-05 18:21:31,785] {scheduler_job.py:155} INFO - Started process (PID=797) to work on /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:31,789] {scheduler_job.py:1589} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2020-12-05 18:21:31,791] {logging_mixin.py:112} INFO - [2020-12-05 18:21:31,790] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:31,798] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['example_dag']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2020-12-05 18:21:31,827] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.042 seconds
