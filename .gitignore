@@ -1,0 +1,6 @@
+# Virtual env
+airflow_env/
+
+# Other cache
+.python-version
+.vscode/
