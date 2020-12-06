@@ -4,3 +4,4 @@ airflow_env/
 # Other cache
 .python-version
 .vscode/
+.DS_Store
