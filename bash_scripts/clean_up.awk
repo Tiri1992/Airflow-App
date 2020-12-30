@@ -1,6 +1,7 @@
 #!/usr/bin/awk -f
 
-# Remove punctuation
+# Remove punctuation in Location and remove non float values from Saleprice (SP)
+# Also remove header (NR > 1)
 BEGIN { 
 	FS=",";
 	OFS=",";

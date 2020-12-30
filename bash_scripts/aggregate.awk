@@ -12,6 +12,7 @@ BEGIN {
 }
 END {
     for (loc in total) {
+        # Print Location, Avg Sale Price
         print loc, total[loc]/freq[loc];
     }
 }
