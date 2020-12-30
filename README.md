@@ -4,7 +4,7 @@ Feel free to use the setup of the docker compose file, which is setup from the o
 
 ### Objective
 
-Simple airflow application which is designed to schedule an ETL for processing data ``store_files/raw_store_transactions.csv``. The scripts the run individual tasks are bash scripts, hence we use the BashOperator when setting up our tasks in the dag ``store_dag.py``.
+Simple airflow application which is designed to schedule an ETL for processing data ``store_files/raw_store_transactions.csv``. The scripts that run individual tasks are bash scripts, hence we use the BashOperator when setting up our tasks in the dag ``store_dag.py`` (please see inside ``dags/`` folder).
 
 ### ETL structure
 
