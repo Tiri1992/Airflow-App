@@ -5,3 +5,8 @@ airflow_env/
 .python-version
 .vscode/
 .DS_Store
+*/__pycache__
+
+# Logs
+**/*.log
+**/log
