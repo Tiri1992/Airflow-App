@@ -19,6 +19,10 @@ services:
         volumes:
             - ./dags:/opt/airflow/dags
             - ./logs:/opt/airflow/logs
+            - ./scripts:/opt/airflow/scripts
+            - ./store_files:/opt/airflow/store_files
+            - ./outputs:/opt/airflow/outputs
+            - ./bash_scripts:/opt/airflow/bash_scripts
     webserver:
         image: apache/airflow
         entrypoint: ./scripts/entrypoint.sh
@@ -36,6 +40,6 @@ services:
             - ./scripts:/opt/airflow/scripts
             - ./store_files:/opt/airflow/store_files
             - ./outputs:/opt/airflow/outputs
-            - ./bash_scripts: /opt/airflow/bash_scripts
+            - ./bash_scripts:/opt/airflow/bash_scripts
         ports:
             - "8080:8080"
